@@ -27,3 +27,18 @@ Ejemplos:
 - `secretName(["Esperanza", "Franco", "Nia"])` should return `'EFN'`.
 - `secretName(['Phoebe', 'Ross', 'Chandler', 'Joey', 'Monica', 'Rachel'])` should return `'CJMPRR'`.
 - `secretName(['Harry', 'Ron', 'Hermione'])` should return `'HHR'`.
+
+## Ejercicio 4: Estado en línea.
+ 
+Mostrar el estado en línea de una lista de usuarios.
+ 
+Ejemplo:
+- `onlineStatus(['mockIng99', 'J0eyPunch', 'glassedFer'])` should return `'mockIng99, J0eyPunch and 1 more online'`.
+
+## Ejercicio 5: Matriz de múltiplos.
+ 
+Crea una función que toma dos parámetros (número, longitud) y devuelve una matriz de longitud que contiene múltiplos del número.
+
+Ejemplo:
+- `arrayMultiplos(2, 10)` should return `[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]`.
+- `arrayMultiplos(17, 6)` should return `[17, 34, 51, 68, 85, 102]`.
