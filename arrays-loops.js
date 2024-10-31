@@ -114,5 +114,44 @@ const multiplos2 = [ ];
 for (let i = 1; i <= length2; i++) {
     multiplos2.push(numero2 * i); // Agregar el múltiplo al array
 }
-console.log(multiplos2); 
+console.log(multiplos2);
+
+//*---------Ejercicio 6: Dominancia positiva en Array.-----------
+const array = [-1, -3, -5, 4, 6767]; 
+let Cont_pos = 0; // 
+let dominancia = false; // 
+for (let i = 0; i < array.length; i++) {
+    if (array[i] > 0) {
+        Cont_pos++; 
+    }
+}
+if (Cont_pos > (array.length / 2)) {
+    dominancia = true; 
+}
+console.log(dominancia); 
+
+//*---------Ejercicio 7: Promedio antípoda.-----------
+const arrays = [1, 2, 3, 5, 22, 6];
+const long = arrays.length;
+const part1 = [];
+const part2 = [];
+const result = [];
+let medio = Math.floor(long / 2);
+
+if (long % 2 !== 0) {
+    medio++;
+}
+
+for (let i = 0; i < medio; i++) {
+    part1.push(arrays[i]);
+}
+for (let i = long - 1; i >= long - medio; i--) {
+    part2.push(arrays[i]);
+}
+
+for (let i = 0; i < part1.length; i++) {
+    const sum = part1[i] + part2[i];
+    result.push(sum / 2); 
+}
+console.log(result); 
 
