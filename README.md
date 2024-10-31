@@ -1,4 +1,5 @@
-JS-04 - Arrays and Loops
+JS-04 - Arrays and Loops 
+
 Ejercicio 1: Suma de resistencias en serie
 Calcular la suma de todas las resistencias conectadas en serie.
 Ejemplos:
