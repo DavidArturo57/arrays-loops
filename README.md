@@ -18,3 +18,12 @@ Dado un número, devuelve el número dividido en sus mitades en una matriz.
 Ejemplos:
 - `numDiv(4)` should return `[2, 2]`.
 - `numDiv(10)` should return `[5, 5]`.
+
+## Ejercicio 3: Sociedad secreta.
+ 
+Encuentra el nombre de una sociedad secreta basándose en la primera letra del nombre de cada miembro.
+ 
+Ejemplos:
+- `secretName(["Esperanza", "Franco", "Nia"])` should return `'EFN'`.
+- `secretName(['Phoebe', 'Ross', 'Chandler', 'Joey', 'Monica', 'Rachel'])` should return `'CJMPRR'`.
+- `secretName(['Harry', 'Ron', 'Hermione'])` should return `'HHR'`.
