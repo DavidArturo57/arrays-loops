@@ -1,13 +1,5 @@
-/*
-*Suma de resistencias en serie
-*Calcular la suma de todas las resistencias conectadas en serie.
-Ejemplos:
-- `sumResitance([-1,5,6,3])` should return `"15 ohms"`. (|−1| + 5 + 6 + 3 = 15)
-- `sumResitance([14,3.5,6])` should return `'23.5 ohms'`. (14 + 3.5 + 6 = 23.5)
-- `sumResitance([8,15,100])` should return `'123 ohms'`. (8 + 15 + 100 = 123)
-Nota: Este enfoque utiliza el valor absoluto de cada resistencia para garantizar que todos los valores sean positivos.
-*/
-//*---Ejemplo 1-----
+//*--------Ejercicio 1: Suma de resistencias en serie.-------------
+//*Ejemplo 1-----
 const resis = [-1, 5, 6, 3];
 let totalResis = 0;
 
@@ -16,7 +8,7 @@ for (let i = 0; i < resis.length; i++) {
 }
 console.log(`${totalResis} ohms`);
 
-//*----Ejemplo 2-----
+//*Ejemplo 2
 const resis2 = [14, 3.5, 6];
 let totalResis2 = 0;
 for (let i = 0; i < resis2.length; i++) {
@@ -24,7 +16,7 @@ for (let i = 0; i < resis2.length; i++) {
 }
 console.log(`${totalResis2} ohms`);
 
-//*---Ejemplo 3------
+//*Ejemplo 3
 const resis3 = [8, 15, 100];
 let totalResis3 = 0;
 for (let i = 0; i < resis3.length; i++) {
@@ -32,14 +24,8 @@ for (let i = 0; i < resis3.length; i++) {
 }
 console.log(`${totalResis3} ohms`);
 
-/*
-*Número dividido en mitades
-*Dado un número, devuelve el número dividido en sus mitades en una matriz.
-Examples:
-- `numDiv(4)` should return `[2, 2]`.
-- `numDiv(10)` should return `[5, 5]`.
-*/
-//*----Ejemplo 1-----
+//*----------Ejercicio 2: Número dividido en mitades.-----------
+//*Ejemplo 1
 const num = 4; 
 let resultado = [];
 
@@ -49,7 +35,7 @@ for (let i = 0; i < 2; i++) {
 }
 console.log(resultado);
 
-//*----Ejemplo 2-----
+//*Ejemplo 2
 const num2 = 10; 
 let resultado2 = [];
 
@@ -59,7 +45,33 @@ for (let i = 0; i < 2; i++) {
 }
 console.log(resultado2);
 
+//*----------Ejercicio 3: Sociedad secreta.-----------
+//*Ejemplo 1
+const sociedad = ["Esperanza", "Franco", "Nia"];
+let secreta = " ";
 
+for (let i = 0; i < sociedad.length; i++) {
+    secreta += sociedad[i][0];
+}
+console.log(secreta); 
+
+//*Ejemplo 2
+const sociedad2 = ["Phoebe", "Ross", "Chandler", 'Joey', "Monica", "Rachel"];
+secreta2 = " ";
+
+for (let i = 0; i < sociedad2.length; i++) {
+    secreta2 += sociedad2[i][0];
+}
+console.log(secreta2);
+
+//*Ejemplo 3
+const sociedad3 = ["Harry", "Ron", "Hermione"];
+secreta3 = " ";
+
+for (let i = 0; i < sociedad3.length; i++) {
+    secreta3 += sociedad3[i][0];
+}
+console.log(secreta3); 
 
 
 
