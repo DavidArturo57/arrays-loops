@@ -1,6 +1,6 @@
-#JS-04 - Arrays and Loops 
+# JS-04 - Arrays and Loops 
 
-##Ejercicio 1: Suma de resistencias en serie.
+## Ejercicio 1: Suma de resistencias en serie.
 
 Calcular la suma de todas las resistencias conectadas en serie.
 Ejemplos:
@@ -9,7 +9,7 @@ Ejemplos:
 - `sumResitance([8,15,100])` should return `'123 ohms'`. (8 + 15 + 100 = 123)
 Nota: Este enfoque utiliza el valor absoluto de cada resistencia para garantizar que todos los valores sean positivos.
 
-##Ejercicio 2: Número dividido en mitades.
+## Ejercicio 2: Número dividido en mitades.
 
 Dado un número, devuelve el número dividido en sus mitades en una matriz.
 Examples:
