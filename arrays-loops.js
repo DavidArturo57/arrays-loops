@@ -73,5 +73,46 @@ for (let i = 0; i < sociedad3.length; i++) {
 }
 console.log(secreta3); 
 
+//*----------Ejercicio 4: Estado en línea.-----------
+const usuarios = ["mockIng992", "J0eyPunch", "glassedFer"];
+const contador = usuarios.length;
+let status = '';
+if (contador === 0) {
+    status = 'Usuario    no online';
+} else if (contador === 1) {
+    status = `${users[0]} online`;
+} else if (contador === 2) {
+    status = `${users[0]} and ${usuarios[1]} online`;
+} else {
+    for (let i = 0; i < contador; i++) {
+        if (i < 2) {
+            status += usuarios[i]; 
+            if (i === 0 && contador > 2) {
+                status += ', '; 
+            } else if (i === 1) {
+                status += ' and '; 
+            }
+        }
+    }
+    status += `${contador - 2} more online`; // Agrega la cantidad de usuarios adicionales
+}
+console.log(status);
 
+//*----------Ejercicio 5: Matriz de múltiplos.-----------
+//*Ejemplo 1
+const numero = 2; 
+const length = 10; 
+const multiplos = [ ]; 
+for (let i = 1; i <= length; i++) {
+    multiplos.push(numero * i); // Agregar el múltiplo al array
+}
+console.log(multiplos); 
+//*Ejemplo 2
+const numero2 = 17; 
+const length2 = 6; 
+const multiplos2 = [ ]; 
+for (let i = 1; i <= length2; i++) {
+    multiplos2.push(numero2 * i); // Agregar el múltiplo al array
+}
+console.log(multiplos2); 
 
