@@ -42,3 +42,21 @@ Crea una función que toma dos parámetros (número, longitud) y devuelve una ma
 Ejemplo:
 - `arrayMultiplos(2, 10)` should return `[2, 4, 6, 8, 10, 12, 14, 16, 18, 20]`.
 - `arrayMultiplos(17, 6)` should return `[17, 34, 51, 68, 85, 102]`.
+
+## Ejercicio 6: Dominancia positiva en Array.
+ 
+Escriba una función para determinar si una matriz es positivamente dominante.
+Una matriz es positivamente dominante cuando la mayoría de sus elementos son positivos.
+ 
+Ejemplo:
+- `positiveDom([-1, -3, -5, 4, 6767])` should return `false`.
+
+## Ejercicio 7: Promedio antípoda.
+ 
+Dada una matriz, devuelva una matriz más corta siguiendo estos pasos:
+- Dividir la matriz en dos partes iguales*. Si no son iguales, eliminar el elemento del medio para obtener dos matrices iguales.
+- Sumar cada número de la primera parte con los números inversos de la segunda parte.
+- Dividir cada número de la matriz resultante por 2.
+ 
+Ejemplo:
+- For the array `[1,2,3,5,22,6]`, the result should be `[3.5, 12, 4]`.
